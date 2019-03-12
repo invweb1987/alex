@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/activity_portfolio"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context="com.example.guesser.GuesserActivity"
+              tools:layout_editor_absoluteX="0dp"
+              tools:layout_editor_absoluteY="81dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/test_number"/>
+
+    <EditText
+        android:id="@+id/guess_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_editor_absoluteX="100dp"
+        android:inputType="number"
+        />
+
+    <Button
+        android:id="@+id/guess_buotton"
+        android:text="@string/guess"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

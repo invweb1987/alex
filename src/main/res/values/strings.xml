@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Guesser</string>
+    <string name="guesser">Guesser</string>
+    <string name="updated_guesser">Updated Guesser</string>
+    <string name="guess">Угадать</string>
+
+    <string name="more">Больше</string>
+    <string name="less">Меньше</string>
+    <string name="guessed">Угадать</string>
+</resources>
